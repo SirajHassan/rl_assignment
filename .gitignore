@@ -1,0 +1,22 @@
+# Python / env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+test.db
+.env
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Misc
+.coverage
+
+# System-tests output
+*.csv
