@@ -123,7 +123,7 @@ Unit tests were made to test each endpoint and also edge cases within the docker
 
 ### System Tests (must be on same machine as the docker container)
 
-This script creates a larger amount of telemetry and validates API behaviour at a higher scale. Optionally it writes `first_page_results.csv` (use `--create-file`; default: not created).
+This script creates a larger amount of telemetry and validates API behaviour at a higher scale. Optionally it writes `first_page_results.csv` (use the `--create-file` flag).
 
 Requirements
 - Python 3.11
