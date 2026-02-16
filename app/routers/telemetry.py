@@ -22,7 +22,7 @@ class TelemetryCreate(BaseModel):
         ...,
         description="Health status of the satellite"
     )
-    # Exampel value for Docs
+    # Example value for Docs
     model_config = {
         "json_schema_extra": {
             "example": {
