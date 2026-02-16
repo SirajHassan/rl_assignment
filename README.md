@@ -14,8 +14,8 @@ FastAPI service for storing and querying satellite telemetry records.
  Important Files:
  - [Telemertry API](https://github.com/SirajHassan/rl_assignment/blob/main/app/routers/telemetry.py)
  - [Database Model](https://github.com/SirajHassan/rl_assignment/blob/main/app/db/models.py)
- - [Unit tests](https://github.com/SirajHassan/rl_assignment/blob/main/tests/unit_tests/test_telemetry.py)
- - [System test](https://github.com/SirajHassan/rl_assignment/tree/main/tests/system_tests)
+ - [Unit test](https://github.com/SirajHassan/rl_assignment/blob/main/tests/unit_tests/test_telemetry.py)
+ - [System test](https://github.com/SirajHassan/rl_assignment/blob/main/tests/system_tests/load_test_telemetry.py)
 
 ## Assumptions
   - `satelliteId` values are strings with a max of 64 characters
