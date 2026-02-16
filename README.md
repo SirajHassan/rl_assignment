@@ -20,8 +20,8 @@ FastAPI service for storing and querying satellite telemetry records.
 ## Assumptions
   - `satelliteId` values are strings with a max of 64 characters
   - `velocity` and `altitude` use floating-point values for precision
-  - `velocity` is assumed to be km/s
-  - `altitude` is expressed in km in the API docs
+  - `velocity` is assumed to be km/s in the API docs
+  - `altitude` is assumed to be km in the API docs
   - `status` has been enumerated to only have the valid values `healthy` or `critical`
   - `created` and `updated` are server-managed timestamp columns, which I thought would be helpful for comparing telemetry timestamps to the time they were recieved
 
