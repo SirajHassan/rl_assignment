@@ -121,7 +121,7 @@ Unit tests were made to test each endpoint and also edge cases within the docker
   docker compose run --rm api pytest
   ```
 
-### System Tests (must be on same machine as the docker container)
+### System Test
 
 This script creates a larger amount of telemetry and validates API behaviour at a higher scale. Optionally it writes `first_page_results.csv` (use the `--create-file` flag).
 
