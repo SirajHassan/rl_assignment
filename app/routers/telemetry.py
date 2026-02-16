@@ -22,7 +22,7 @@ class TelemetryCreate(BaseModel):
         ...,
         description="Health status of the satellite"
     )
-    
+    # Exampel value for Docs
     model_config = {
         "json_schema_extra": {
             "example": {
@@ -45,6 +45,7 @@ class TelemetryResponse(BaseModel):
     created: datetime
     updated: datetime
     
+    # Example value for Docs
     model_config = {
         "json_schema_extra": {
             "example": {
@@ -65,6 +66,7 @@ class DeleteResponse(BaseModel):
     id: int
     message: str
     
+    # Example value for Docs    
     model_config = {
         "json_schema_extra": {
             "example": {
